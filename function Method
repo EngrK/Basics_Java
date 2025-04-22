@@ -1,0 +1,20 @@
+String name = tfFN.getText().toString();                      ///
+        String middlename = tfMN.getText().toString();
+        String lastname = tfLN.getText().toString();
+        
+        int age = Integer.parseInt(tfAge.getText().toString());
+        
+        String gender;
+        
+        String password = tfPassword.getText().toString();
+        
+        String comfirmpass = tfPassword1.getText().toString();
+        
+        
+        if(password == comfirmpass){
+            JOptionPane.showMessageDialog(null, "Saved Successfully!");
+             
+        } else {
+            JOptionPane.showMessageDialog(null, "Your Password is not correct match!");
+            
+    }              ////
